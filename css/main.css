@@ -455,7 +455,7 @@ img {
 .sitenav__item::after {
   position: absolute;
   left: 0;
-  bottom: -30px;
+  bottom: -20px;
   display: none;
   width: 100%;
   height: 4px;
@@ -524,13 +524,17 @@ img {
     display: none;
   }
   .site-header--open .site-header__sitenav {
-    display: block;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
     padding: 20px;
-    top: 100%;
-    left: 0;
-    width: 100%;
     z-index: 1;
     background-color: #ffffff;
+    border-radius: 4px;
   }
 }/*# sourceMappingURL=main.css.map */
