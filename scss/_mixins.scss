@@ -3,3 +3,9 @@
   margin: 0;
   list-style: none;
 }
+
+@mixin breakpoint-down ($size) {
+  @media only screen and (max-width: $size) {
+    @content;
+  }
+}

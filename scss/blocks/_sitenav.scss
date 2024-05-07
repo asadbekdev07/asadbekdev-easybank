@@ -32,6 +32,8 @@
       margin-right: 30px;
     }
     .sitenav__link {
+      display: block;
+      width: 100%;
       font-size: 14px;
       line-height: 16px;
       letter-spacing: -0.11px;
@@ -44,5 +46,27 @@
 
       &:active {
         opacity: 0.6;
+      }
+    }
+
+    @include breakpoint-down (700px) {
+      .sitenav__list {
+        flex-direction: column;
+      }
+
+      .sitenav__item {
+        width: 100%;
+      }
+
+      .sitenav__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 24px;
+      }
+
+      .sitenav__link {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: -0.14px;
+        color: $color-secondary;
       }
     }

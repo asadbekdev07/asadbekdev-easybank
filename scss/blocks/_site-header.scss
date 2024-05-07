@@ -1,4 +1,6 @@
 .site-header {
+  position: relative;
+  z-index: 1;
   padding-top: 18px;
   padding-bottom: 18px;
   background-color: $color-white;
@@ -8,4 +10,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@include breakpoint-down (700px) {
+  .site-header__sitenav {
+    display: none;
+  }
+
+  .site-header--open .site-header__sitenav {
+    display: block;
+    position: absolute;
+    padding: 20px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: $color-white;
+  }
 }
