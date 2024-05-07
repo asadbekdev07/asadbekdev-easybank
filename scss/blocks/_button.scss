@@ -1,0 +1,22 @@
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 8px 34px;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2;
+  background-image: $linear-green-bg;
+  color: $color-white;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
