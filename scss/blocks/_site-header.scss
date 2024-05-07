@@ -17,26 +17,12 @@
     display: none;
   }
 
-  // .site-header--open .site-header__sitenav {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center; /* Center the sitenav-items vertically */
-  //   justify-content: center;
-  //   position: absolute;
-  //   padding: 20px;
-  //   top: 100%;
-  //   left: 0;
-  //   width: 80%;
-  //   z-index: 1;
-  //   background-color: $color-white;
-  // }
-
     .site-header--open .site-header__sitenav {
       display: flex;
       flex-direction: column;
       align-items: center;
       position: fixed;
-      top: 60%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 80%;
