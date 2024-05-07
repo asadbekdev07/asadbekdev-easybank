@@ -350,10 +350,10 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family: "Arial", sans-serif;
+  font-family: "Public Sans", "Arial", sans-serif;
   font-size: 16px;
-  background-color: #ffffff;
-  color: #222222;
+  background-color: #f2f2f2;
+  color: #9597A5;
 }
 
 img {
@@ -376,9 +376,9 @@ img {
 /* CONTAINER  */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1110px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
