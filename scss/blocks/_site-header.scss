@@ -1,8 +1,8 @@
 .site-header {
   position: relative;
-  z-index: 1;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  z-index: 5;
+  padding-top: 1.13rem;
+  padding-bottom: 1.13rem;
   background-color: $color-white;
 }
 
@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-@include breakpoint-down (700px) {
+@include breakpoint-down (43.75rem) {
   .site-header__sitenav {
     display: none;
   }
@@ -26,10 +26,9 @@
       left: 50%;
       transform: translate(-50%, -50%);
       width: 80%;
-      padding: 20px;
+      padding: 1.25rem;
       z-index: 1;
-      background-color: #ffffff;
+      background-color: $color-white;
       border-radius: 4px;
     }
-
 }
